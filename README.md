@@ -33,6 +33,10 @@ Sesler Google Cloud (Gemini-TTS) ile üretilmiştir.
 
 Tüm dosya adları küçük harf, alt çizgi ile ayrılmış, saf ASCII karakterlerden oluşur (Türkçe özel karakter veya boşluk içermez) — bu, ham (`raw`) bağlantıların hiçbir URL kodlaması gerektirmeden doğrudan çalışmasını sağlar.
 
+### Kapak görselleri
+
+`covers/` klasörü, her konu için **tek bir** kapak görseli barındırır (3 dil ortak kullanır). Adlandırma: `<konu_slug>.webp` — örn. `hz_adem.webp`. Ayrıntı için [`covers/README.md`](covers/README.md).
+
 ## Kullanım
 
 Uygulama, Firestore'daki her ses kaydının bağlantısını şu formatta bekler:
